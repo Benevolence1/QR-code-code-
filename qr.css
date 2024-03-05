@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  background-color: rgb(194, 205, 236);
+}
+.qr-container{
+  margin: 0 auto;
+  max-width: 315px;
+  padding: 50px;
+  
+}
+
+.card{
+  background-color: white;
+padding: 18px;
+border-radius: 8px;
+  
+}
+
+.qr-code{
+  width: 100%;
+  width: 275px;
+  border-radius: 8px;
+}
+
+
+.top-text{
+font-size: 20px;
+margin-bottom: 8px;
+}
+
+.attribution{
+  position: absolute;
+  top: 70%;
+  margin-left: 410px;
+text-align: center;
+}
